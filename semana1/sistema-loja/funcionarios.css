@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: saddlebrown;
+}
+
+.cabecalho {
+    background-color: saddlebrown;
+    color: seashell;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid seashell;
+}
+
+.tabela {
+    position: fixed;
+    left: 400px;
+    top: 300px;
+    font: normal 20px Arial;
+    border: solid 2px seashell;
+    color: seashell;
+}
+
+h2 {
+    font: normal 40px Arial;
+    color: seashell;
+    position: fixed;
+    left: 33vw;
+    top: 20vh;
+}
+
+a {
+    text-decoration: none;
+    font: normal 20px Arial;
+    color: seashell;
+    border: solid 2px;
+    border-radius: 50px;
+    position: fixed;
+    top: 80vh;
+    left: 5vw;  
+}
