@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    background-image: url(images/wallpaper.jpg);
+    color: white;
+    font-family: OCR A Std, monospace;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+.cabecalho {
+    background-color: rgb(83, 83, 83);
+    height: 8vh;
+    font-size: 30px;
+}
+
+#lado-esquerdo {
+    float: left;
+    width: 45vw;
+    height: 90vh;
+    border: solid 2px white;
+    text-align: center;
+    
+
+}
+
+#primeiro-texto {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+    
+}
+
+#primeiro-texto > h1 {
+    font-size: 50px;
+    font-family: OCR A Std, monospace;
+}
+
+#educ {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#lado-direito {
+    position: relative;
+    float: right;
+    text-align: center;
+    width: 45vw;
+    height: 90vh;
+    border: solid 2px white;
+
+    
+}
+
+#hab {
+    margin-top: 10%;
+}
+
+#my-projects {
+    position: relative;
+    float: left;
+    margin-left: 20%;
+    margin-top: 70%;
+}
+
+#redes-sociais {
+    position: relative;
+    float: right;
+    margin-top: 20%;
+    margin-right: 2%;
+}
