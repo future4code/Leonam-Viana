@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: saddlebrown;
+}
+
+.cabecalho {
+    background-color: saddlebrown;
+    color: seashell;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid seashell;
+}

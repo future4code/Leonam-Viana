@@ -1,80 +1,93 @@
+* {
+    margin: 0px;
+}
 body {
     margin: 0px;
-    background-image: url(images/wallpaper.jpg);
+    background-color: rgba(0, 0, 0, 0.863);
+}
+
+#topo {
+    position: relative;
+    width: 99.5vw;
+    height: 50px;
+    border: solid 1px black;
+    text-align: center;
+    word-spacing: 20px;
     color: white;
     font-family: OCR A Std, monospace;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: scroll;
+    font-size: 22px;
 }
 
-.cabecalho {
-    background-color: rgb(83, 83, 83);
-    height: 8vh;
-    font-size: 30px;
-}
-
-#lado-esquerdo {
-    float: left;
-    width: 45vw;
-    height: 90vh;
-    border: solid 2px white;
-    text-align: center;
-    
-
-}
-
-#primeiro-texto {
-    position: relative;
-    float: left;
-    width: 400px;
-    height: 200px;
-    margin-left: 10%;
-    margin-top: 10%;
-    text-align: center;
-    
-}
-
-#primeiro-texto > h1 {
-    font-size: 50px;
+#topo > a {
+    text-decoration: none;
     font-family: OCR A Std, monospace;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
 }
 
-#educ {
+.myself {
     position: relative;
-    float: left;
-    width: 400px;
-    height: 300px;
-    margin-left: 10%;
-    margin-top: 10%;
-    text-align: center;
+    height: 50vh;
+    width: 99.5%;
+    text-decoration: none;
 }
 
-#lado-direito {
+#photo {
     position: relative;
-    float: right;
-    text-align: center;
-    width: 45vw;
-    height: 90vh;
+    width: 200px;
+    height: 200px;
+    border: solid 4px darkolivegreen;
+    border-radius: 100%;
+}
+
+#myself-texto {
+    color: white;
+    font-family: OCR A Std, monospace;
+    position: relative;
+    margin-left: 250px;
+    margin-top: -180px;
+}
+
+#myself-all {
+    position: relative;
+    top: 20%;
+    left: 25%;
+}
+
+#projeto-f4 {
+    position: relative;
+    width: 300px;
+    height: 200px;
     border: solid 2px white;
-
-    
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 80px;
 }
 
-#hab {
-    margin-top: 10%;
-}
-
-#my-projects {
+#projeto-loja {
     position: relative;
-    float: left;
-    margin-left: 20%;
-    margin-top: 70%;
+    width: 300px;
+    height: 200px;
+    border: solid 2px white;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 80px;
 }
 
-#redes-sociais {
+#titulo-projetos {
     position: relative;
-    float: right;
-    margin-top: 20%;
-    margin-right: 2%;
+    width: 600px;
+    font-family: OCR A Std, monospace;
+    margin-left: 300px;
+    color: white;
+    font: 20px;
+}
+
+#meus-projetos {
+    position: relative;
+    font-family: OCR A Std, monospace;
+    color: white;
+    margin-top: 170px;
+    margin-left: 220px;
 }

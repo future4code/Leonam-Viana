@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: saddlebrown;
+}
+
+.cabecalho {
+    background-color: saddlebrown;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px solid white;
+}
+
+a {
+    font: normal 40px Arial;
+    color: white;
+    border: 2px solid;
+    border-radius: 50px;
+    
+}
+
+a#add-prod {
+    position: fixed;
+    top: 200px;
+    left: 35vw;
+    
+}
+
+a#estoque {
+    position: fixed;
+    top: 340px;
+    left: 35vw;
+}
+
+a#func {
+    position: fixed;
+    top: 500px;
+    left: 33.5vw;
+}
