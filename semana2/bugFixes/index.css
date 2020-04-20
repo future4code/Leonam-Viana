@@ -35,6 +35,7 @@ div>p:first-child {
 
 div img {
     /*background: black;*/
+    width: 20px;
 }
 
 .botao-amarelo {
@@ -51,6 +52,7 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    color: black;
 }
 
 .container {
@@ -116,6 +118,11 @@ td button {
     color: black;
 }
 
+td button:hover {
+    background-color: green;
+    color: white;
+}
+
 .container-do-search {
     margin-top: 20px;
     height: 100px;
@@ -133,7 +140,8 @@ td button {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: black;
+    color: white;
 }
 
 table img {
