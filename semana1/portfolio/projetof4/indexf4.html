@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cssdesktop.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1 class="fL">
+          <a href="#abrirModal">Home</a> <a href="#">Cursos</a> <a href="#">Contato</a> &nbsp;
+        </h1>
+    </header>
+    
+    <div class="meio">
+        <h2>Projeto Seletivo Future4</h2>
+        <img src="future4.jpg" width="50%" height="40%">
+        <p>Turma Web Full Stack</p>
+    </div>
+    
+    <div id="abrirModal" class="modal">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        
+    </div>
+
+    <footer>
+        
+        <input id="caixaMail" type="text" name="email" placeholder="Coloque seu email!"/>
+        <input id="botaoMail" type="submit" name="submit" value="Enviar" onclick="validaEmail(document.email)"/>
+        
+    </footer>
+
+    <script type="text/javascript" src="codejs.js"></script>
+</body>
+</html>
