@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    background-color: rgb(39, 38, 38);
+}
+
+/*
+    ESTILOS DO CABEÇALHO
+*/
+header {
+    background-color: #820000;
+    width: 100vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+    align-items: center;
+    font: italic 20px Arial;
+    color: white;
+    padding-left: 20px;
+}
+
+#labetube {
+    grid-column: 1;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    grid-column: 4;
+    border-radius: 20px;
+}
+
+/*
+    ESTILO FOOTER
+
+*/
+footer{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+    background-color: #820000;
+    color: white;
+    font: italic 20px Arial;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========= ESTILOS GERAIS ======== */
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+video {
+    width: 600px;
+    height: 400px;
+
+}
+
+p {
+    color: white;
+    font: normal 16px Arial;
+}
