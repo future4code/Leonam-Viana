@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Controle de despesas</title>
+</head>
+<body>
+    <main id="mainContainer">
+        <section class="sessao">
+            <h2>Controlador de Despesas</h2>
+            <h4>Cadastrar Despesa</h4>
+
+            <form action="" type="submit">
+                <label for="valorDespesa">Valor:</label>
+                <input type="number" name="valorDespesa" id="valorDespesa">
+                
+                <label for="tipoDespesa">Tipo</label>
+                <select name="tipoDespesa" id="tipoDespesa">
+                    <option value="casa">Casa</option>
+                    <option value="viagem">Viagem</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="transporte">Transporte</option>
+                </select>
+
+                <label for="descricaoDespesa">Descrição</label>
+                <input type="text" id="descricaoDespesa" name="descricaoDespesa">
+                <button type="submit">Cadastrar Despesa</button>
+            </form>
+        </section>
+
+        <section class="sessao">
+            <h2>Despesas Detalhadas</h2>
+
+            <form action="#">
+                <label for="tipoDespesaDetalhada">Tipo</label>
+                <select name="tipoDespesa" id="tipoDespesaDetalhada">
+                    <option value="casa">Casa</option>
+                    <option value="viagem">Viagem</option>
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="transporte">Transporte</option>
+                </select>
+
+                <label for="valorMinimo">Valor Mínimo</label>
+                <input type="number" name="valorMinimo" id="valorMinimo">
+
+                <label for="valorMaximo">Valor Máximo</label>
+                <input type="number" name="valorMaximo" id="valorMaximo">
+                <div>
+                    <button>Filtrar</button>
+                    <button>Limpar Filtros</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="sessao">
+            <h1>Extrato</h1>
+            <h3>Valor Total: </h3>
+        </section>
+    </main>
+</body>
+</html>
