@@ -1,55 +1,96 @@
-* {
+body, ul, li, p {
     margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
 }
 
-#mainContainer {
+a {
+    text-decoration: none;
+    color: white
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: indigo;
+}
+
+.main {
+    background-color: indigo;
     width: 100vw;
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sessao {
-    font: normal 18px;
+.section {
+    width: 600px;
+    height: 500px;
+    border: solid 3px #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
 }
 
-section:nth-of-type(1) {
-    background-color: darkslateblue;
-    border: solid 2px goldenrod;
+input, select {
+    border: none;
+    border-bottom: solid 2px white;;
+    background-color: transparent;
+    display: block;
+    color: white;   
 }
 
-section:nth-of-type(2) {
-    background-color: darkslateblue;
-    border: solid 2px goldenrod;
+option {
+    color: white;
+    background-color: rgb(51, 3, 85);
 }
 
-section:nth-of-type(3) {
-    background-color: darkslateblue;
-    border: solid 2px goldenrod;
+.section > div {
+    width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    text-align: center;
+    color: white;
+
 }
 
-section:nth-of-type(1) > form {
+button {
+    background-color: transparent;
+    border: solid 1px white;
+    height: 30px;
+    color: white;
+}
+
+#botoes-do-filtro {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#descricaoDespesa {
-    width: 200px;
-    height: 70px;
-}
-
-section:nth-of-type(2) > form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
 }

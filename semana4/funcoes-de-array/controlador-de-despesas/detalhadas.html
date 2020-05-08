@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header>
+        <a>Logo</a>
+        <nav>
+            <ul class="menu">
+                <li><a href="controlador-despesa.html">Controlador de Despesas</a></li>
+                <li><a href="detalhadas.html">Despesas Detalhadas</a></li>
+                <li><a href="extrato.html">Extrato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <section class="section">
+            <div>
+                <h2>Despesas Detalhadas</h2>
+
+                <label for="tipo-da-despesa">Tipo:</label>
+                <select name="tipo-da-despesa" id="tipo-da-despesa">
+                    <option value="alimentacao">Alimentação</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="casa">Casa</option>
+                </select>
+
+                <label for="valor-minimo">Valor mínimo:</label>
+                <input type="number" name="valor-minimo" id="valor-minimo">
+
+                <label for="valor-maximo">Valor máximo:</label>
+                <input type="number" name="valor-maximo" id="valor-maximo">
+
+                <div id="botoes-do-filtro">
+                    <button>Limpar filtros</button>
+                    <button>Filtrar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
