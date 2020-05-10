@@ -44,3 +44,43 @@ let quartaQuestao = () => {
         os dois console.log imprimem, respectivamente, o menor e o maior numero da array;
     
 }
+
+//___________________________________________________________________________________________
+
+//=============================== LÓGICA DE PROGRAMAÇÃO ======================================
+
+
+
+const primeiraQuestao = (() => {
+    //forEach, map e filter
+    const peoples = [
+        {nome: 'Aaa', idade: 1, naturalidade: 'Brasileiro'},
+        {nome: 'Bbb', idade: 1, naturalidade: 'Australiano'},
+        {nome: 'Ccc', idade: 2, naturalidade: 'Chinês'},
+        {nome: 'Ddd', idade: 1, naturalidade: 'Brasileiro'},
+        {nome: 'Eee', idade: 3, naturalidade: 'Italiano'},
+        {nome: 'Fff', idade: 5, naturalidade: 'Brasileiro'}
+    ]
+
+    peoples.forEach((pessoa, idx, arr) => {
+        pessoa.idade += 1
+    })
+    console.log(peoples)
+    
+    const nomeENaturalidade = peoples.map((pessoa, idx, array) => {
+        return {
+            nome: pessoa.nome,
+            pais: pessoa.naturalidade
+        }
+        
+    })
+    console.log(nomeENaturalidade)
+
+    const soBrasileiros = peoples.filter((pessoa, idx, arr) => {
+        if(pessoa.naturalidade === 'Brasileiro') {
+            return true
+        }
+        return false
+    })
+    console.log(soBrasileiros)
+})
