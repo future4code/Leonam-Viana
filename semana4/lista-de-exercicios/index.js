@@ -154,3 +154,22 @@ const questaoDois = (() => {
 questaoDois()
 
 */
+
+//___________________________________________________________________________________________
+
+//=============================== EXERCÍCIOS DE OBJETOS ======================================
+
+//Questão 1. Arrays são listas de elementos que podem ser números, strings... Objetos são como objetos no mundo real
+// como se fosse, por exemplo, uma caneta contendo seus atributos cor: , marca: , etc...
+//Podemos guardar os objetos dentro das arrays se quisermos fazer uma lista de pessoas, contas, despesas, etc...
+
+function criaRetangulo(lado1, lado2) {
+    const retangulo = {
+        largura: lado1,
+        altura: lado2,
+        perimetro: 2 * (lado1 + lado2),
+        area: lado1 * lado2
+    }
+    console.log(retangulo)
+}
+criaRetangulo(5, 5)
