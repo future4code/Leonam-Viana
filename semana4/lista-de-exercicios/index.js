@@ -33,3 +33,14 @@ let terceiraQuestao = () => {
         A terceira é a quantidade total de números da array2
     
 }
+
+let quartaQuestao = () => {
+
+        Cria uma array chamada numeros com vários números inteiros, numeros float e numeros negativos;
+        Cria duas lets, numero1 com valor Infinity(maior que qualquer numero do codigo) e numero2 que é zero;
+        Faz um laço onde se let numero for menor que numero1, o valor de numero1 é alterado para o menor valor da array;
+        E se numero for maior que numero2(o que não é verdade pois o menor valor da array é -10) então numero2 recebe o valor de numero;
+
+        os dois console.log imprimem, respectivamente, o menor e o maior numero da array;
+    
+}
