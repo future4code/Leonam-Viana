@@ -82,6 +82,16 @@ option {
 
 }
 
+form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
 button {
     background-color: transparent;
     border: solid 1px white;
@@ -93,4 +103,26 @@ button {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+#main-detalhadas {
+    background-color: indigo;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#sessao-de-filtro {
+    height: 800px;
+    margin: 10px;
+}
+
+#sessao-detalhadas {
+    height: 800px;
+    margin: 10px;
+    border: solid 3px white;
+    background-color: #1d1d1d;
+    justify-content: flex-start;
 }

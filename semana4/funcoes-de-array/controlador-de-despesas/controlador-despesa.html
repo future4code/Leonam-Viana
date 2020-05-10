@@ -25,21 +25,23 @@
         <section class="section" id="sessao-cadastro">
             <div>
                 <h2>Controlador de Despesas</h2>
+                
+                <form id="form-controlador">
+                    <label for="valor-da-despesa">Valor:</label>
+                    <input type="number" name="valor-da-despesa" id="valor-da-despesa">
 
-                <label for="valor-da-despesa">Valor:</label>
-                <input type="number" name="valor-da-despesa" id="valor-da-despesa">
+                    <label for="tipo-da-despesa">Tipo:</label>
+                    <select name="tipo-da-despesa" id="tipo-da-despesa">
+                        <option value="alimentacao">Alimentação</option>
+                        <option value="transporte">Transporte</option>
+                        <option value="casa">Casa</option>
+                    </select>
 
-                <label for="tipo-da-despesa">Tipo:</label>
-                <select name="tipo-da-despesa" id="tipo-da-despesa">
-                    <option value="alimentacao">Alimentação</option>
-                    <option value="transporte">Transporte</option>
-                    <option value="casa">Casa</option>
-                </select>
+                    <label for="descricao-da-despesa">Descrição:</label>
+                    <input type="text" name="descricao-da-despesa" id="descricao-da-despesa">
 
-                <label for="descricao-da-despesa">Descrição:</label>
-                <input type="text" name="descricao-da-despesa" id="descricao-da-despesa">
-
-                <button onclick="cadastraNovaDespesa()">Cadastrar Despesa!</button>
+                    <button type="submit" onclick="cadastraDespesa()">Cadastrar Despesa!</button>
+                </form>
             </div>
         </section>
     </main>

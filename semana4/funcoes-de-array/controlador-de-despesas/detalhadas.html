@@ -21,29 +21,34 @@
         </nav>
     </header>
     
-    <main class="main">
-        <section class="section">
+    <main class="main" id="main-detalhadas">
+        <section class="section" id="sessao-de-filtro">
             <div>
                 <h2>Despesas Detalhadas</h2>
+                <form id="form-detalhadas">
+                    <label for="tipo-da-despesa-detalhada">Tipo:</label>
+                    <select name="tipo-da-despesa-detalhada" id="tipo-da-despesa-detalhada">
+                        <option value="alimentacao">Alimentação</option>
+                        <option value="transporte">Transporte</option>
+                        <option value="casa">Casa</option>
+                    </select>
 
-                <label for="tipo-da-despesa">Tipo:</label>
-                <select name="tipo-da-despesa" id="tipo-da-despesa">
-                    <option value="alimentacao">Alimentação</option>
-                    <option value="transporte">Transporte</option>
-                    <option value="casa">Casa</option>
-                </select>
+                    <label for="valor-minimo">Valor mínimo:</label>
+                    <input type="number" name="valor-minimo" id="valor-minimo">
 
-                <label for="valor-minimo">Valor mínimo:</label>
-                <input type="number" name="valor-minimo" id="valor-minimo">
+                    <label for="valor-maximo">Valor máximo:</label>
+                    <input type="number" name="valor-maximo" id="valor-maximo">
 
-                <label for="valor-maximo">Valor máximo:</label>
-                <input type="number" name="valor-maximo" id="valor-maximo">
-
-                <div id="botoes-do-filtro">
-                    <button>Limpar filtros</button>
-                    <button>Filtrar</button>
-                </div>
+                    <div id="botoes-do-filtro">
+                        <button>Limpar filtros</button>
+                        <button type="submit" onclick="imprimeDespesas()">Filtrar</button>
+                    </div>
+                </form>
             </div>
+        </section>
+
+        <section class="section" id="sessao-detalhadas">
+            <h2>Suas Despesas</h2>
         </section>
     </main>
 
