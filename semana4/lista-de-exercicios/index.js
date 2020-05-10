@@ -101,3 +101,20 @@ const segundaQuestao = (() => {
 
     //e) `!(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)` = true
 })
+
+
+const quartaQuestao = (() => {
+    let a = Number(prompt("A: "))
+    let b = Number(prompt("B: "))
+    let c = Number(prompt("C: "))
+
+    if (a == b && b == c) {
+        console.log("Equilátero")
+    } else if ((a == b) || (a == c) || (b == c)) {
+        console.log("Isósceles")
+    } else {
+        console.log("Escaleno")
+    }
+})
+
+*/
