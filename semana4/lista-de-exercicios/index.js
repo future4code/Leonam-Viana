@@ -84,3 +84,20 @@ const primeiraQuestao = (() => {
     })
     console.log(soBrasileiros)
 })
+
+const segundaQuestao = (() => {
+    //booleano1 = true / 
+    //booleano2 = false
+    //booleano3 = !booleano2
+    //booleano4 = !booleano3
+
+    //a) `booleano1 && booleano2 && !booleano4` = false
+
+    //b) `(booleano1 && booleano2) || !booleano3` = false
+
+    //c)  `(booleano2 || booleano3) && (booleano4 || booleano1)` = true
+
+    //d) `!(booleano2 && booleano3) || !(booleano1 && booleano3)` = true
+
+    //e) `!(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)` = true
+})
