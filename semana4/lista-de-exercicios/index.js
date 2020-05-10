@@ -117,4 +117,28 @@ const quartaQuestao = (() => {
     }
 })
 
+
+
+const quintaQuestao = (() => {
+    const num1 = Number(prompt("Digite o primeiro número"))
+    const num2 = Number(prompt("Digite o segundo número"))
+
+    const imprimeMaior = (() => {
+        if (num1 > num2) {
+            const diferenca = num1 - num2
+            console.log(`O maior é: ${num1}`)
+            console.log(`${num2} não é divisível por ${num1}`)
+            console.log(`${num1} é divisível por ${num2}`)
+            console.log(`A diferença entre eles é ${diferenca}`)
+        } else if (num2 > num1) {
+            const diferenca = num2 - num1
+            console.log(`O maior é: ${num2}`)
+            console.log(`${num1} não é divisível por ${num2}`)
+            console.log(`${num2} é divisível por ${num1}`)
+            console.log(`A diferença entre eles é ${diferenca}`)
+        }
+    })
+    imprimeMaior()
+})
+
 */
