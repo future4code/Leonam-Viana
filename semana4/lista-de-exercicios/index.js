@@ -159,10 +159,13 @@ questaoDois()
 
 //=============================== EXERCÍCIOS DE OBJETOS ======================================
 
-//Questão 1. Arrays são listas de elementos que podem ser números, strings... Objetos são como objetos no mundo real
-// como se fosse, por exemplo, uma caneta contendo seus atributos cor: , marca: , etc...
-//Podemos guardar os objetos dentro das arrays se quisermos fazer uma lista de pessoas, contas, despesas, etc...
+/*Questão 1.
+Arrays são listas de elementos que podem ser números, strings... Objetos são como objetos no mundo real
+como se fosse, por exemplo, uma caneta contendo seus atributos cor: , marca: , etc...
+Podemos guardar os objetos dentro das arrays se quisermos fazer uma lista de pessoas, contas, despesas, etc...
+*/
 
+/* Questão 2.
 function criaRetangulo(lado1, lado2) {
     const retangulo = {
         largura: lado1,
@@ -172,4 +175,15 @@ function criaRetangulo(lado1, lado2) {
     }
     console.log(retangulo)
 }
-criaRetangulo(5, 5)
+*/
+/* Questão 3.
+function filmeFavorito () {
+    let meuFilme = {
+        titulo: 'Milagre na Cela 7',
+        ano: 2019,
+        diretor: 'Mehmet Ada Öztekin',
+        atorxs: ['Aras Bulut', 'Nisa Sofiya', 'Deniz Bayasal'],
+    }
+    alert(`Venha assistir ao filme ${meuFilme.titulo}, de ${meuFilme.ano}, dirigido por ${meuFilme.diretor} e estrelado por ${meuFilme.atorxs}`)
+}
+*/
