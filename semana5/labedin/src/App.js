@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
-import minhaFoto from './components/CardGrande/minhaFoto.jpg';
+import MinhaFoto from './components/CardGrande/MinhaFoto.jpg';
+import FacidFoto from './components/CardGrande/Facid.jpg';
 import CardPequeno from './components/CardPequeno/CardPequeno';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem={minhaFoto}
+          imagem={MinhaFoto}
           nome="Leonam" 
           descricao="Oi, eu sou o Leonam. Sou aluno da Labenu. Adoro aprender react a semana inteira e praticar com um projetão no fim de semana! Sou um amante de League of Legends e gosto de estar sempre atualizado sobre as novas tecnologias que surgem a todo momento"
         />
@@ -35,17 +36,17 @@ function App() {
       </div>
 
       <div className="page-section-container">
-        <h2>Experiências profissionais</h2>
+        <h2>Instituições Educacionais</h2>
         <CardGrande 
           imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
           nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
+          descricao="Web Full Stack - cursando - modulo2" 
         />
         
         <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+          imagem={FacidFoto} 
+          nome="Facid | Wyden" 
+          descricao="Sistemas de Informação - Trancado - 4° período" 
         />
       </div>
 
