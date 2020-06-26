@@ -1,11 +1,12 @@
 import React from 'react'
 import {Switch, Route, BrowserRouter} from 'react-router-dom'
-import HomePage from './components/HomePage'
-import CreateTripPage from './components/CreateTripsPage'
-import ListTripsPage from './components/ListTripsPage'
-import TripDetailsPage from './components/TripDetailsPage'
-import LoginPage from './components/LoginPage'
-import PageNoutFound from './components/PageNotFound'
+import HomePage from './HomePageFolder/HomePage'
+import CreateTripPage from './CreateTripsFolder/CreateTripsPage'
+import ListTripsPage from './ListTripsFolder/ListTripsPage'
+import TripDetailsPage from './TripDetailsFolder/TripDetailsPage'
+import LoginPage from './LoginFolder/LoginPage'
+import PageNoutFound from './PageError404/PageNotFound'
+import FormAplicationPage from './FormAplicationFolder/FormAplication'
 
 const Router = () => {
     return (
@@ -29,6 +30,10 @@ const Router = () => {
 
                 <Route exact path="/detalhes" >
                     <TripDetailsPage />
+                </Route>
+
+                <Route exact path="/inscricao">
+                    <FormAplicationPage />
                 </Route>
 
                 <Route exact path="" >
