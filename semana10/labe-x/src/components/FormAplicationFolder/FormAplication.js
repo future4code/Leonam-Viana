@@ -48,8 +48,8 @@ const DescriptionTrip = styled.div`
 
 const FormAplicationPage = () => {
     const [trips, setTrips] = useState([])
-
     const history = useHistory()
+    
     useEffect(() => {
       axios
         .get(`https://us-central1-labenu-apis.cloudfunctions.net/labeX/leonam-moura/trips`)
